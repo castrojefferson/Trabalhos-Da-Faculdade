@@ -43,7 +43,6 @@ notasDoTeste = (
 
 
 numeroDeClasses = regraDeSturges(100)
-numeroDeClassesFeitoComRaizQuadrado = regraDeSturgesComRaizQuadrada(100)
 
 amplitude = calcularAmplitude(notasDoTeste) 
 tamanhoDaClasse = calcularTamanhoDaClasse(amplitude, numeroDeClasses)
