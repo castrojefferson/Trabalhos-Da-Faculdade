@@ -8,9 +8,6 @@ from math import log10
 def regraDeSturges(N):
 	return round(1+3.3*log10(N))
 
-def regraDeSturgesComRaizQuadrada(N):
-	return round(N/(1/2))
-
 def calcularAmplitude(matriz):
 	return round(max(matriz) - min(matriz))
 
